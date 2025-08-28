@@ -61,4 +61,4 @@ print("1".isnumeric())
 print(language.lower())
 print(language.lower().isupper())
 print(language.startswith("Py"))
-print("Py" == "py")
+print("Py" == "py")  # No es lo mismo
