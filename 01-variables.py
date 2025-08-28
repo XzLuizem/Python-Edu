@@ -18,11 +18,12 @@ print(my_string_variable, my_int_to_str_variable, my_bool_variable)
 print("Este es el valor de:", my_bool_variable)
 
 # Algunas funciones del sistema
-print(len(my_string_variable)) # Cantidad de caracteres
+print(len(my_string_variable))  # Cantidad de caracteres
 
 # Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis!
 name, surname, alias, age = "Luis", "Michel", "XzLuizem", 36
-print("Me llamo:", name, surname, ". Mi edad es:", age, ". Y mi alias es:", alias)
+print("Me llamo:", name, surname, ". Mi edad es:",
+      age, ". Y mi alias es:", alias)
 
 # Inputs
 name = input('¿Cuál es tu nombre?')
@@ -42,4 +43,3 @@ address = True
 address = 32
 address = 1.2
 print(type(address))
-    
