@@ -23,7 +23,11 @@ name, surname, age = "Luis", "Michel", 36
 
 print("Mi nombre es {} {} y mi edad es {}".format(name, surname, age))
 print("Mi nombre es %s %s y mi edad es %d" % (surname, name, age))
-print("Mi nombre es " + name + " " + surname + " y mi edad es " + str(age))
+print(
+    "Mi nombre es " +
+    name + " " + surname +
+    " y mi edad es " + str(age)
+)
 print(f"Mi nombre es {name} {surname} y mi edad es {age}")
 
 # Desempaquetado de caracteres

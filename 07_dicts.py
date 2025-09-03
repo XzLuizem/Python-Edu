@@ -6,8 +6,12 @@ my_other_dict = {}
 print(type(my_dict))
 print(type(my_other_dict))
 
-my_other_dict = {"Nombre": "Luis",
-                 "Apellido": "Michel", "Edad": 36, 1: "Python"}
+my_other_dict = {
+    "Nombre": "Luis",
+    "Apellido": "Michel",
+    "Edad": 36,
+    1: "Python"
+}
 
 my_dict = {
     "Nombre": "Luis",
@@ -69,5 +73,9 @@ print(set(my_new_dict))  # Convierte las claves del diccionario en un conjunto
 
 
 # Crea un nuevo diccionario con claves de my_list y valor "Vacío"
-my_new_dict = dict.fromkeys(("Nombre", 1, "Piso"), "Vacío")
+my_new_dict = dict.fromkeys(
+    ("Nombre", 1, "Piso"),
+    "Vacío"
+)
+
 print(my_new_dict)
